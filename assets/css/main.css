@@ -2,13 +2,26 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background: #080864; }
 
+h1 {
+  text-align: center;
+  color: #fff; }
+
+p {
+  text-align: center;
+  color: #fff; }
+
 table {
   font-size: 1em; }
 
 .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
+  max-width: 85vw;
+  margin: auto; }
+  .container-flex {
+    max-width: 85vw;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
 
 .ui-draggable, .ui-droppable {
   background-position: top; }
