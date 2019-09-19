@@ -1,0 +1,40 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #080864;
+}
+
+table {
+    font-size: 1em;
+}
+
+.container {
+    display: flex;
+}
+
+.ui-draggable, .ui-droppable {
+    background-position: top;
+}
+
+#sortable1,
+#sortable2 {
+    background: #fff;
+    width: 142px;
+    min-height: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 0 0 0;
+    float: left;
+    margin-right: 10px;
+    flex: 1;
+    border-radius: 0.2em;
+    li,
+    li {
+        margin: 0 5px 5px 5px;
+        padding: 5px;
+        font-size: 1.2em;
+        border: .05em solid #080864;
+        border-radius: 0.2em;
+        background: lightgray;
+    }
+}
